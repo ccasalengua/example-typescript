@@ -1,3 +1,7 @@
-"use strict";
-var text = 'Hello World';
-console.log(text);
+import { Game } from "./game.js";
+let game;
+window.onload = () => {
+    game = new Game();
+    game.start();
+};
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJpbmRleC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxPQUFPLEVBQUUsSUFBSSxFQUFFLE1BQU0sV0FBVyxDQUFDO0FBRWpDLElBQUksSUFBSSxDQUFDO0FBRVQsTUFBTSxDQUFDLE1BQU0sR0FBRyxHQUFHLEVBQUU7SUFDakIsSUFBSSxHQUFHLElBQUksSUFBSSxFQUFFLENBQUM7SUFDbEIsSUFBSSxDQUFDLEtBQUssRUFBRSxDQUFDO0FBQ2pCLENBQUMsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IEdhbWUgfSBmcm9tIFwiLi9nYW1lLmpzXCI7XHJcblxyXG5sZXQgZ2FtZTtcclxuXHJcbndpbmRvdy5vbmxvYWQgPSAoKSA9PiB7IFxyXG4gICAgZ2FtZSA9IG5ldyBHYW1lKCk7XHJcbiAgICBnYW1lLnN0YXJ0KCk7IFxyXG59OyJdfQ==
